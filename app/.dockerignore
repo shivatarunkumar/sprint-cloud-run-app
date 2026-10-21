@@ -1,0 +1,8 @@
+# Only sources and build scripts go into the build context; outputs are produced inside Docker.
+build/
+.gradle/
+.idea/
+*.iml
+.vscode/
+Dockerfile
+.dockerignore

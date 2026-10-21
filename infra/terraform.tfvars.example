@@ -1,0 +1,5 @@
+# Copy to terraform.tfvars, or let the Makefile pass these via -var.
+project_id = "my-gcp-project"
+region     = "europe-west2"
+# bucket_name  = "my-custom-bucket"
+# service_name = "gcs-pubsub-app"

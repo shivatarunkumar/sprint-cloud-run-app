@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Java / Gradle
+.gradle/
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.iml
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+.terraform.tfstate.lock.info
+
+# macOS
+.DS_Store
